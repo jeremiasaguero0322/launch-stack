@@ -38,7 +38,7 @@ export async function GET() {
         }
 
         const [result] = await db
-            .select({
+            .select({ id: users.id,
                 metadata: companyMetadata.metadata,
                 schemaVersion: companyMetadata.schemaVersion,
                 createdAt: companyMetadata.createdAt,
