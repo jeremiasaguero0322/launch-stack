@@ -13,6 +13,7 @@ WORKDIR /app
 # alone and resolves every workspace:* link.
 FROM base AS deps
 COPY pnpm-workspace.yaml package.json pnpm-lock.yaml .pnpmfile.cjs ./
+COPY patches ./patches/
 COPY packages/core/package.json ./packages/core/
 COPY packages/features/package.json ./packages/features/
 COPY apps/web/package.json ./apps/web/

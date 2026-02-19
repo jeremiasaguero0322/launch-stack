@@ -1,4 +1,5 @@
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 import { config as loadDotenv } from "dotenv";
 import { z } from "zod";
 
@@ -8,7 +9,10 @@ import { z } from "zod";
 // whether it's pulled in by next.config.ts, route handlers, scripts, or tests.
 // dotenv leaves already-defined process.env entries untouched, so platform-set
 // vars (Vercel, Docker, root scripts that pre-load) win.
-loadDotenv({ path: path.resolve(__dirname, "../../../.env") });
+// apps/web is "type": "module", so __dirname is undefined under raw tsx — derive
+// from import.meta.url so backfill scripts and Next bundles both resolve it.
+const moduleDir = path.dirname(fileURLToPath(import.meta.url));
+loadDotenv({ path: path.resolve(moduleDir, "../../../.env") });
 
 const normalize = (value: unknown) =>
   typeof value === "string" && value.trim().length === 0 ? undefined : value;

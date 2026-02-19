@@ -1,13 +1,13 @@
 # Dependencies (reinstalled inside container)
-node_modules
+**/node_modules
 .pnp
 .pnp.js
 
 # Build output (rebuilt inside container)
-.next
-out
-build
-dist
+**/.next
+**/out
+**/build
+**/dist
 
 # Generated assets (created by postinstall from node_modules)
 apps/web/public/vad
