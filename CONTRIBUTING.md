@@ -5,7 +5,7 @@ Thanks for your interest in contributing! This document covers how to set up a d
 ## Before you start
 
 - **One issue per PR.** If your change spans multiple concerns, split it.
-- Search [existing issues](https://github.com/launchstack/launchstack/issues) and [discussions](https://github.com/launchstack/launchstack/discussions) before opening a new one.
+- Search [existing issues](https://github.com/jeremiasaguero0322/launch-stack/issues) and [discussions](https://github.com/jeremiasaguero0322/launch-stack/discussions) before opening a new one.
 - Substantial features (new packages, new ports, API-breaking changes) should be discussed in an issue first — we want to agree on the shape before you invest time writing code.
 
 ## Repo layout
@@ -34,8 +34,8 @@ The **core/features/host boundary is enforced by ESLint** (see [`eslint.config.j
 ### Minimal setup (hosted Postgres)
 
 ```bash
-git clone https://github.com/launchstack/launchstack.git
-cd launchstack
+git clone https://github.com/jeremiasaguero0322/launch-stack.git
+cd launch-stack
 pnpm install
 cp .env.example .env                  # fill in DATABASE_URL + CLERK + OPENAI keys
 pnpm db:push                          # sync Drizzle schema
@@ -100,8 +100,8 @@ Before requesting review:
 
 ## Getting help
 
-- **Questions**: [GitHub Discussions](https://github.com/launchstack/launchstack/discussions)
-- **Bug reports**: [New issue](https://github.com/launchstack/launchstack/issues/new/choose)
+- **Questions**: [GitHub Discussions](https://github.com/jeremiasaguero0322/launch-stack/discussions)
+- **Bug reports**: [New issue](https://github.com/jeremiasaguero0322/launch-stack/issues/new/choose)
 - **Security**: see [SECURITY.md](SECURITY.md) — do not open public issues for vulnerabilities
 
 ## License

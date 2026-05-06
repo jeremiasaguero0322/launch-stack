@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     # Only run when the repo owns the NPM_TOKEN secret.
     # On forks, this skips gracefully.
-    if: github.repository == 'launchstack/launchstack'
+    if: github.repository == 'jeremiasaguero0322/launch-stack'
 
     permissions:
       contents: write   # to create the version PR + tags

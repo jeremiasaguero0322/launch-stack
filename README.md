@@ -4,10 +4,10 @@
 
 [![npm](https://img.shields.io/npm/v/@launchstack/core.svg)](https://www.npmjs.com/package/@launchstack/core)
 [![license](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
-[![CI](https://github.com/launchstack/launchstack/actions/workflows/CI.yml/badge.svg)](https://github.com/launchstack/launchstack/actions/workflows/CI.yml)
+[![CI](https://github.com/jeremiasaguero0322/launch-stack/actions/workflows/CI.yml/badge.svg)](https://github.com/jeremiasaguero0322/launch-stack/actions/workflows/CI.yml)
 [![types](https://img.shields.io/badge/types-TypeScript-blue.svg)](https://www.typescriptlang.org/)
 
-[Quickstart](#quickstart) · [Packages](#whats-in-the-box) · [Architecture](#architecture) · [Reference app](#reference-app) · [Contributing](CONTRIBUTING.md) · [Discussions](https://github.com/launchstack/launchstack/discussions)
+[Quickstart](#quickstart) · [Packages](#whats-in-the-box) · [Architecture](#architecture) · [Reference app](#reference-app) · [Contributing](CONTRIBUTING.md) · [Discussions](https://github.com/jeremiasaguero0322/launch-stack/discussions)
 
 ---
 
@@ -106,8 +106,8 @@ Core exposes four **ports** that the host wires up. Features depend only on thes
 **Run it locally:**
 
 ```bash
-git clone https://github.com/launchstack/launchstack.git
-cd launchstack
+git clone https://github.com/jeremiasaguero0322/launch-stack.git
+cd launch-stack
 pnpm install
 cp .env.example .env          # fill in required keys
 pnpm db:push                  # sync Drizzle schema
@@ -172,8 +172,8 @@ See [`packages/core/README.md`](packages/core/README.md) for the full API surfac
 
 ## Community & support
 
-- **Discussions** — [github.com/launchstack/launchstack/discussions](https://github.com/launchstack/launchstack/discussions)
-- **Issues** — [github.com/launchstack/launchstack/issues](https://github.com/launchstack/launchstack/issues)
+- **Discussions** — [github.com/jeremiasaguero0322/launch-stack/discussions](https://github.com/jeremiasaguero0322/launch-stack/discussions)
+- **Issues** — [github.com/jeremiasaguero0322/launch-stack/issues](https://github.com/jeremiasaguero0322/launch-stack/issues)
 - **Security** — email per [SECURITY.md](SECURITY.md)
 
 ---

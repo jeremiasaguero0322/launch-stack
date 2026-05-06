@@ -5,6 +5,7 @@
   "type": "module",
   "description": "Launchstack monorepo root. Run package-level scripts via pnpm --filter <pkg>.",
   "license": "Apache-2.0",
+  "author": "Jeremias <jeremiasaguero0323@gmail.com>",
   "scripts": {
     "build": "pnpm --filter @launchstack/web build",
     "check": "eslint . && pnpm -r typecheck",

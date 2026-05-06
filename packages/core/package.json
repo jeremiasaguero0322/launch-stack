@@ -5,11 +5,11 @@
   "type": "module",
   "description": "Launchstack engine: document ingestion, RAG, knowledge graph, OCR, LLM abstractions. Framework-agnostic — runs under Next, Node, or any host that supplies a StoragePort, JobDispatcherPort, and CreditsPort.",
   "license": "Apache-2.0",
-  "author": "Launchstack",
-  "homepage": "https://github.com/launchstack/launchstack",
+  "author": "Jeremias <jeremiasaguero0323@gmail.com>",
+  "homepage": "https://github.com/jeremiasaguero0322/launch-stack",
   "repository": {
     "type": "git",
-    "url": "https://github.com/launchstack/launchstack.git",
+    "url": "https://github.com/jeremiasaguero0322/launch-stack.git",
     "directory": "packages/core"
   },
   "keywords": [

@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        For open-ended questions, use [Discussions](https://github.com/launchstack/launchstack/discussions) instead.
+        For open-ended questions, use [Discussions](https://github.com/jeremiasaguero0322/launch-stack/discussions) instead.
         Substantial features should land as a design discussion before implementation.
 
   - type: textarea

@@ -5,6 +5,7 @@
   "type": "module",
   "description": "Launchstack Next.js application — hosts the engine (via @launchstack/core) and all vertical features behind Clerk auth.",
   "license": "Apache-2.0",
+  "author": "Jeremias <jeremiasaguero0323@gmail.com>",
   "scripts": {
     "build": "next build",
     "check": "eslint . && tsc --noEmit",
